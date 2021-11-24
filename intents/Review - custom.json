@@ -1,0 +1,46 @@
+{
+  "id": "54c55b86-23ab-416e-8a81-854c1fc1060d",
+  "parentId": "d3677fe6-bf40-41ac-b944-3ed137460740",
+  "rootParentId": "d3677fe6-bf40-41ac-b944-3ed137460740",
+  "name": "Review - custom",
+  "auto": true,
+  "contexts": [
+    "Review-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Review.Review-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you would you like taste it"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

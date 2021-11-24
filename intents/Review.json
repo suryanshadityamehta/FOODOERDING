@@ -1,0 +1,62 @@
+{
+  "id": "d3677fe6-bf40-41ac-b944-3ed137460740",
+  "name": "Review",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Review-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aad4d06c-9192-40d0-98eb-8292b26cd54d",
+          "name": "dish",
+          "required": true,
+          "dataType": "@dish",
+          "value": "$dish.original",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which dish you would like to get the review?paneer chilly ,paneer tikka,chicken 65,chicken tandoori,veg briyani"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "$dish has a 5 star rating and it is one of our top dishes",
+            "$dish is fresh, perfectly cooked super delicious",
+            "$dish is one of the top dishes from our restaurant"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

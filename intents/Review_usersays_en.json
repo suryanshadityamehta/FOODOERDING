@@ -1,0 +1,69 @@
+[
+  {
+    "id": "dcfd2420-e32f-4cea-bc37-36c4ddb084a0",
+    "data": [
+      {
+        "text": "what is the rating of dish",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e619183-53a0-4fc8-9908-772585c53a79",
+    "data": [
+      {
+        "text": "show me the review of dish",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de4e08f0-3faf-47bc-a932-b48e87efdd6e",
+    "data": [
+      {
+        "text": "dish",
+        "meta": "@dish",
+        "alias": "dish",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f8908e1-a934-4759-b7a1-10bf83589766",
+    "data": [
+      {
+        "text": "I would like to look for review of ordered food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a39745b-1b37-4ddd-8aba-f3bb3dbee014",
+    "data": [
+      {
+        "text": "I am looking for some food reviews",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
